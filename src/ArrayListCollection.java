@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class ArrayListCollection {
@@ -22,6 +23,10 @@ public class ArrayListCollection {
         {
             System.out.println(itr.next());
         }
+        //sorting the list
+        Collections.sort(list);
+        System.out.println(list);
+
 
 
 
